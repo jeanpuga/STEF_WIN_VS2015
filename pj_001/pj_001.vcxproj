@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Animacao.cpp" />
+    <ClCompile Include="Source\Antropometria.cpp" />
+    <ClCompile Include="Source\Desenha.cpp" />
+    <ClCompile Include="Source\Entrada.cpp" />
+    <ClCompile Include="Source\Face.cpp" />
+    <ClCompile Include="Source\Grafo.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\Medidas.cpp" />
+    <ClCompile Include="Source\MedidasFactory.cpp" />
+    <ClCompile Include="Source\Movimentos.cpp" />
+    <ClCompile Include="Source\No.cpp" />
+    <ClCompile Include="Source\Parametrizacao.cpp" />
+    <ClCompile Include="Source\RafaMedidas.cpp" />
+    <ClCompile Include="Source\Saida.cpp" />
+    <ClCompile Include="Source\TesteMedidas.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Animacao.h" />
+    <ClInclude Include="Source\Antropometria.h" />
+    <ClInclude Include="Source\Desenha.h" />
+    <ClInclude Include="Source\Entrada.h" />
+    <ClInclude Include="Source\Face.h" />
+    <ClInclude Include="Source\Grafo.h" />
+    <ClInclude Include="Source\Medidas.h" />
+    <ClInclude Include="Source\MedidasBase.h" />
+    <ClInclude Include="Source\MedidasFactory.h" />
+    <ClInclude Include="Source\Movimentos.h" />
+    <ClInclude Include="Source\No.h" />
+    <ClInclude Include="Source\Parametrizacao.h" />
+    <ClInclude Include="Source\RafaMedidas.h" />
+    <ClInclude Include="Source\Saida.h" />
+    <ClInclude Include="Source\TesteMedidas.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\.gitignore" />
+    <None Include="Source\DesenhaExp.layout" />
+    <None Include="Source\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Source\CMakeLists.txt" />
+    <Text Include="Source\PontosRafael.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{91738610-6F31-449B-B371-7CF5F5A1D3F9}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeOutput>pj_001.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakeOutput>pj_001.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\glut\include;D:\opencv-master\opencv-master\mybuild\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalUsingDirectories>D:\glut\lib;D:\opencv-master\opencv-master\mybuild\install\x86\vc14\lib;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>D:\opencv-master\opencv-master\mybuild\install\x86\vc14\lib\opencv_core310.lib;D:\opencv-master\opencv-master\mybuild\install\x86\vc14\lib\opencv_highgui310.lib;D:\opencv-master\opencv-master\mybuild\install\x86\vc14\lib\opencv_imgproc310.lib;D:\opencv-master\opencv-master\mybuild\install\x86\vc14\lib\opencv_imgcodecs310.lib;D:\opencv-master\opencv-master\mybuild\install\x86\vc14\lib\opencv_video310.lib;D:\opencv-master\opencv-master\mybuild\install\x86\vc14\lib\opencv_videoio310.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

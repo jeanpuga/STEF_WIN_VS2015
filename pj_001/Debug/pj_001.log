@@ -1,0 +1,45 @@
+﻿Build started 15/05/2016 23:57:08.
+     1>Project "D:\codigo_caricaturas\STEF_20160513_001\pj_001\pj_001\pj_001.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\pj_001.tlog\pj_001.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\pj_001.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\Arquivos de Programas (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ID:\glut\include /I"D:\opencv-master\opencv-master\mybuild\install\include" /AID:\glut\lib /AI"D:\opencv-master\opencv-master\mybuild\install\x86\vc14\lib" /ZI /nologo /W1 /WX- /Od /Oy- /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Source\Animacao.cpp Source\Antropometria.cpp Source\Desenha.cpp Source\Entrada.cpp Source\Face.cpp Source\Grafo.cpp Source\main.cpp Source\Medidas.cpp Source\MedidasFactory.cpp Source\Movimentos.cpp Source\No.cpp Source\Parametrizacao.cpp Source\RafaMedidas.cpp Source\Saida.cpp Source\TesteMedidas.cpp
+         TesteMedidas.cpp
+         Saida.cpp
+         RafaMedidas.cpp
+         Parametrizacao.cpp
+         No.cpp
+         Movimentos.cpp
+         MedidasFactory.cpp
+         Medidas.cpp
+         main.cpp
+         Grafo.cpp
+     1>d:\codigo_caricaturas\stef_20160513_001\pj_001\pj_001\source\grafo.cpp(24): error C2131: expression did not evaluate to a constant
+         d:\codigo_caricaturas\stef_20160513_001\pj_001\pj_001\source\grafo.cpp(24): note: failure was caused by non-constant arguments or reference to a non-constant symbol
+         d:\codigo_caricaturas\stef_20160513_001\pj_001\pj_001\source\grafo.cpp(24): note: see usage of 'this'
+         Face.cpp
+         Entrada.cpp
+         Desenha.cpp
+     1>d:\codigo_caricaturas\stef_20160513_001\pj_001\pj_001\source\desenha.cpp(34): error C2131: expression did not evaluate to a constant
+         d:\codigo_caricaturas\stef_20160513_001\pj_001\pj_001\source\desenha.cpp(34): note: failure was caused by non-constant arguments or reference to a non-constant symbol
+         d:\codigo_caricaturas\stef_20160513_001\pj_001\pj_001\source\desenha.cpp(34): note: see usage of 'nNos'
+     1>d:\codigo_caricaturas\stef_20160513_001\pj_001\pj_001\source\desenha.cpp(36): error C3863: array type 'GLfloat [nNos]' is not assignable
+     1>d:\codigo_caricaturas\stef_20160513_001\pj_001\pj_001\source\desenha.cpp(39): error C3863: array type 'GLfloat [nNos]' is not assignable
+     1>d:\codigo_caricaturas\stef_20160513_001\pj_001\pj_001\source\desenha.cpp(54): error C2131: expression did not evaluate to a constant
+         d:\codigo_caricaturas\stef_20160513_001\pj_001\pj_001\source\desenha.cpp(54): note: failure was caused by non-constant arguments or reference to a non-constant symbol
+         d:\codigo_caricaturas\stef_20160513_001\pj_001\pj_001\source\desenha.cpp(54): note: see usage of 'nPontos'
+     1>d:\codigo_caricaturas\stef_20160513_001\pj_001\pj_001\source\desenha.cpp(58): error C3863: array type 'GLfloat [nPontos][3]' is not assignable
+     1>d:\codigo_caricaturas\stef_20160513_001\pj_001\pj_001\source\desenha.cpp(59): error C3863: array type 'GLfloat [nPontos][3]' is not assignable
+     1>d:\codigo_caricaturas\stef_20160513_001\pj_001\pj_001\source\desenha.cpp(60): error C3863: array type 'GLfloat [nPontos][3]' is not assignable
+     1>d:\codigo_caricaturas\stef_20160513_001\pj_001\pj_001\source\desenha.cpp(67): error C2664: 'void gluNurbsCurve(GLUnurbs *,GLint,GLfloat *,GLint,GLfloat *,GLint,GLenum)': cannot convert argument 5 from 'GLfloat [nPontos][3]' to 'GLfloat *'
+         d:\codigo_caricaturas\stef_20160513_001\pj_001\pj_001\source\desenha.cpp(67): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         Antropometria.cpp
+         Animacao.cpp
+         Generating Code...
+     1>Done Building Project "D:\codigo_caricaturas\STEF_20160513_001\pj_001\pj_001\pj_001.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.41

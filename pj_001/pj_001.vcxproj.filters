@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{3f4a5078-85dc-4d50-b3f0-630138dc169b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Animacao.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Antropometria.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Desenha.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Entrada.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Face.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Grafo.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Medidas.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MedidasFactory.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Movimentos.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\No.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Parametrizacao.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RafaMedidas.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Saida.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TesteMedidas.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Animacao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Antropometria.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Desenha.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Entrada.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Face.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Grafo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Medidas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MedidasBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MedidasFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Movimentos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\No.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Parametrizacao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RafaMedidas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Saida.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TesteMedidas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\DesenhaExp.layout">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\README.md">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\.gitignore">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Source\CMakeLists.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Source\PontosRafael.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
